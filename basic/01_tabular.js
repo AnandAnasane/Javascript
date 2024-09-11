@@ -2,7 +2,7 @@ let userName = "Anand";
 let userId = 101;
 let userCity = "Pune";
 let isMale = true;
-let position = "MEAN developer";
+let position = "MEAN and MERN developer";
 
 
 console.table([userName, userId, userCity, isMale, position]);
