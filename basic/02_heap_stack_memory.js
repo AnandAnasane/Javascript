@@ -1,4 +1,4 @@
-// Stack memory - it get the reference of that variable
+// Stack memory - it get the copy of that variable
 // All the premitive data types goes to the stack memory
 
 let my_name = "Anand";
@@ -10,7 +10,7 @@ console.log(nick_name);
 
 
 
-// This is the example of Heap memory.. in heap memory we get the exact copy of the varible 
+// This is the example of Heap memory.. in heap memory we get the reference of that varible 
 // All the non-premitive data types goes to the Heap memory
 let userone = {
 
