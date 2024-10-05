@@ -1,3 +1,6 @@
+// NaN - Not a number
+
+
 const a = 8;
 const b = Math.sqrt(a); 
 console.log(`The Square root of ${a} is ${b}`); //output: The Square root of 8 is 2.8284271247461903
