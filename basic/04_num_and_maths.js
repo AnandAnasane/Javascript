@@ -40,6 +40,41 @@ console.log(hundered.toLocaleString('en-IN')); //output 10,00,000
 
 // ++++++++++++++  MATHS +++++++++++++++++
 
+console.log(Math);
+
+//Math.abs() method - To get absolue value of the number 
+// i.e convert the negative value to the positive
+console.log(Math.abs(-4)); //output 4
+ 
+//Math.round() - It can convert the decimal value to the round off to nearest value
+console.log(Math.round(4.6)); //output 5
+console.log(Math.round(4.4)); // output 4
+
+//Math.ceil() - It can give the Highest near whole number of the decimal number. 
+console.log(Math.ceil(6.1)); // output 7
+
+//Math.floor() -It can give the lowest near whole number of the decimal number.
+console.log(Math.floor(4.7)); //output 4
+
+//Math.min() -It can give the minimum number of the array
+console.log(Math.min(4,8,3,6,7)); // Output 3
+
+//Math.max() -It can give the maximum number of the array
+console.log(Math.max(4,8,3,6,7)); // Output 8
+
+
+//Math.random() is use to generate number between 0 to 1
+console.log(Math.random());
+
+console.log(Math.random()*10);
+
+// We can use this Math.random() method to generate OTP of any degit number.
+//You have to just assign the min and max value
+const min = 1000;
+const max = 9999;
+console.log (Math.floor((Math.random() *(max-min) + 1)) + min);
+
+
 
 
 
