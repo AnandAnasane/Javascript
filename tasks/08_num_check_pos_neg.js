@@ -13,6 +13,10 @@ console.log(result);
 
 
 // second withouth using Math.sign() method
-const num1 = -30;
-if(num1 >= 0) console.log(`${num1} is a positive number`);
-else console.log(`${num1} is a Negative number`);
+const num1 = 'anand';
+if(num1 > 0) console.log(`${num1} is a positive number`);
+else if(num1 < 0) console.log(`${num1} is a Negative number`);
+else if( num1 == 0) console.log(`${num1} is a Zero`);
+else console.log(`${num1} is not a number`);
+
+
