@@ -10,3 +10,15 @@ for(let i=1; i< arr.length; i++){
     }
 }
 console.log(`duplicate array are [${duplicate}]`);
+
+//with the help of spread operator
+const brr1 = [1,1,2,3,4,5,2,3,6,3,4,5,6,7,9,];
+const uniquebrr1 = [... new Set(brr1)];
+console.log(uniquebrr1);
+
+const names = ['india', 'china', 'UAE', 'india', 'USA', 'UAE', 'Russia'];
+const uniqueNames = [... new Set(names)];
+console.log(uniqueNames);
+
+
+
