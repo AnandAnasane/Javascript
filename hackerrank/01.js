@@ -4,27 +4,29 @@
 
 // By considering the terms in the Fibonacci sequence whose values do not exceed , find the sum of the even-valued terms.
 
-// Program
+// Function to generate Fibonacci series and sum even-valued terms
 
-function fibnocci(n){
+function fibAddEven(n){
+
     let a = 1;
-    let b = 2;
-    
-    for(let i =1; i<=n; i++)
-    {
-        
-        console.log(a);
-        let temp = a + b ;
+    let b =2;
+    let sum = 0;
+
+    while(a<=n)
+        {
+        if(a%2 === 0){
+            sum +=a;
+        }
+        // console.log(a);
+        let next = a + b;
         a = b;
-        b = temp;
+        b = next;
     }
-    console.log('-----------------------------------');
-    
-    for(let j =1; j<10; j++)
-    {
-    if(j%2==0) console.log(j);    
-    }
+
+    return sum;
+
+   
 }
 
-fibnocci(5);
-
+// let result = fibAddEven(10);
+console.log(`result : ${fibAddEven(100)}`);
