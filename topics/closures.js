@@ -13,3 +13,14 @@ function outerFunction (outerVariable){
 
 const newFun = outerFunction('outside function.........!');
 newFun('inner Function...........!');
+
+
+// function outfunction (outV){
+//     return function inFunction(inV){
+//         console.log(`outer: ${outV}, inner: ${inV}`);
+        
+//     }
+// }
+
+// let result = outfunction('anand');
+// result('anasane');
