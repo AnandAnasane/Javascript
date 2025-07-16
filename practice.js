@@ -1,3 +1,39 @@
+// Find Second Largest Numbers
+
+const arr = [1,2,3,4,5,6]
+function Secondlargest(arr){
+
+    let laregst = - Infinity;
+    let Secondlargest = -Infinity;
+
+    for(let i = 1; i<= arr.length; i++){
+
+        if(arr[i] > laregst){
+            Secondlargest = laregst;
+            laregst = arr[i];
+        }else if(arr[i] > Secondlargest && arr[i] !== laregst){
+            Secondlargest = arr[i];
+        }
+    }
+    return Secondlargest;
+
+} 
+console.log(Secondlargest(arr))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Fibnoacci Series
 //  fibnoacci =  (n) => {
 //     let a = 0;
@@ -36,6 +72,7 @@
 //     }
 // }
 // console.log(duplicate)
+// console.log(arr)
 
 
 // remove duplicate array elements print remaining
