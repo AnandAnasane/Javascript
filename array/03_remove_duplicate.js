@@ -1,4 +1,4 @@
-const arr = [2,2,3,5,3,4,6,3,4];
+const arr = [2,2,3,5,3,4,6,3,4,1];
 const duplicate = [];
 
 for(let i=0; i< arr.length; i++){
@@ -7,6 +7,7 @@ for(let i=0; i< arr.length; i++){
         if(arr[i] === arr[j] && !duplicate.includes(arr[i])){
             duplicate.push(arr[i]);
         }
+
     }
 }
 // console.log(`duplicate array are [${duplicate}]`);
